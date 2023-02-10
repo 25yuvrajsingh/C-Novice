@@ -14,4 +14,71 @@ int N;
  cout<<N;
 
 }
+6
+6
 ######################################
+
+Sometimes - we have to accept multiple inputs in a single line.
+We can use the same syntax to accept multiple inputs in a single line, however the different inputs will be separated by a '>>' operator.
+
+Now lets try and solve the following
+
+Accept 3 space separated integers given in a line into 3 variables - 
+A,B and C
+Print them out to a single line on the console
+You can play around with the exact syntax in the IDE -> refer to the solution in case you are unable to get this correct.
+Code the solution in the IDE and then click Submit to continue.
+
+code:
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() 
+{
+ int A,B,C;                                     //string A,B,C;     in case of strings
+ cin>>A>>B>>C;
+ cout<<A<<" "<<B<<" "<<C;
+  return 0;
+}
+
+1 2 3
+##########################################
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() 
+{
+int a = 5;
+ cout<<a<<endl;
+ 		
+ string b = "abcde";		
+ cout<<b<<endl;
+		
+ int array[] = {1,2,3}; 
+ cout<<array[0]<<" "<<array[1]<<" "<<array[2];	
+}
+
+5
+abcde
+1 2 3
+##################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
