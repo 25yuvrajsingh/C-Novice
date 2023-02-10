@@ -1,0 +1,17 @@
+Let us define a variable N that accepts integer inputs.
+Output the same variable N.
+To declare and integer variable, we use the int data type.
+
+code:
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() 
+{
+int N;
+ cin>>N;
+ cout<<N;
+
+}
+######################################
