@@ -66,9 +66,38 @@ abcde
 1 2 3
 ##################################################
 
+Now let's write a simple program - the Input mirror. Your program needs to do the following
 
+Accept an integer input from the console and store it in the variable N
+Accept a string input from the console and store it in the variable S
+Output the integer and the string on the same line
+Sample 1:
+Input
+5
+abcde
 
+Output
+5 abcde
 
+code:-
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() 
+{
+ int N;
+ string S;
+ cin>>N;
+ cin>>S;
+ cout<<N<<endl<<S;
+  return 0;
+}
+
+5
+abcde
+################################
 
 
 
