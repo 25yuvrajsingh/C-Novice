@@ -36,7 +36,7 @@ using namespace std;
 
 int main() 
 {
- int A,B,C;                                     //string A,B,C;     in case of strings
+ int A,B,C;                                     //string A,B,C;     in case of strings       	(IMP)---->   's' --> s is small.
  cin>>A>>B>>C;
  cout<<A<<" "<<B<<" "<<C;
   return 0;
@@ -97,7 +97,9 @@ int main()
 
 5
 abcde
-################################
+########################
+
+
 
 
 
